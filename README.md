@@ -73,3 +73,37 @@ Process requests into confirmed schedules.
 Undo the last schedule if needed.
 
 Display all current appointments.
+RUN FUNCTIONALITY OF THIS CODE-
+=== Hospital Simple Menu ===
+1  - Add patient
+2  - Delete patient
+3  - List patients
+4  - Add doctor
+5  - List doctors
+6  - Enqueue appointment request
+7  - Show request queue
+8  - Process next request (schedule)
+9  - Undo last scheduled appointment
+10 - Show scheduled appointments
+0  - Exit
+Choose an option: 1
+Enter patient name: Alice
+Added patient 1 : Alice
+
+Choose an option: 4
+Enter doctor name: Dr. Smith
+Added doctor 1 : Dr. Smith
+
+Choose an option: 6
+Enter patient id: 1
+Enter doctor id: 1
+Enter date/time (string): Monday 10AM
+Enqueued request #1  patient 1 -> doctor 1  at Monday 10AM
+
+Choose an option: 8
+Scheduled appointment s1: patient Alice (p1) -> doctor Dr. Smith (d1) at Monday 10AM (from req #1)
+
+Choose an option: 10
+Scheduled appointments:
+  s1: Alice (p1) -> Dr. Smith (d1) at Monday 10AM [active]
+
